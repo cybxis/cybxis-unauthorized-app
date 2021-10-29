@@ -1,3 +1,4 @@
+function go(){
 var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -8,4 +9,5 @@ var xhttp = new XMLHttpRequest();
   xhttp.setRequestHeader("Content-Type","application/json");
   xhttp.setRequestHeader("X-Requested-With","XMLHttpRequest");
   xhttp.AllowCredentials=true;
-  xhttp.send();
+  xhttp.send();	
+}
